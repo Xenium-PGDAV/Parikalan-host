@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- addings css files -->
+    <link rel="stylesheet" href="./assets/css/events.css">
+    <link rel="stylesheet" href="./assets/css/events-neon.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+
+    <!-- <link rel="stylesheet" href="./assets/css/about.css">  -->
+    <script src="https://kit.fontawesome.com/a0519ef118.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="icon" href="./assets/images/parikalan.jpeg" type="image/icon type">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <title>Events </title>
+</head>
+
+<body id="body">
+    <!-- ? Call the /events/parikalan api to get all the events for parikalan society -->
+
+    <!-- ==========================================================================================
+
+    Navbar Section
+    file name of css and js are common.css and index.js respectively.
+    
+    
+=================================================================================================== -->
+    <section class="nav-elements ">
+        <h2 class="Parikalan-logo">PARIKALAN</h2>
+        <nav class="nav-bar">
+            <ul class="nav-unod-list">
+                <li class="nav-list"><a href="./about.html" class="nav-link"> About<div class="underline2">
+                            <span></span></a></li>
+                <!-- <li class="nav-list"><a href="./about.html" class="nav-link"> About US </a></li> -->
+                <li class="nav-list"><a href="./events.html" class="nav-link active1"> Events </a></li>
+                <!-- <li class="nav-list"><a href="./members.html" class="nav-link"> MEMBERS </a></li> -->
+                <li class="nav-list"><a href="./xenium.html" class="nav-link "> xenium </a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </section>
+
+    
+
+    <!-- ============================================================================
+
+    Section for upcoming Events cards and headings 
+
+
+
+=============================================================================-->
+
+
+<div class="loading__wrapper">
+    <div class="loader--text">Loading...</div>
+    <div class="loader">
+      <span></span>
+    </div>
+  </div>
+
+<section id="website-hero">
+
+    <div class="events-head">
+        <h1 class="events-heading">EVENTS <div class="shine"></div>
+        </h1>
+    </div>
+
+
+    <div class="alert">
+
+        
+        <div>
+            <p>Page Under Maintainence </p>
+        </div>
+
+        <section class="lottie-maitainence"> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/dbbc4778-94c7-4dfd-9bad-9e0f3bfbcebb/eNmFrUtlfX.json" background="transparent" speed="1" style="width: 600px; height: 600px;" loop autoplay></dotlottie-player>
+        </section>
+
+
+      </div>
+    <div class="heading-1"><i class="fa-solid fa-calendar-alt calendar"></i>UPCOMING EVENTS </div>
+    <section id="events_c" class="upcom-events">
+        <div class="contain">
+            <div id="upcomingEventsContainer"  class="events-container" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 100px;  margin:50px 0px;"></div>
+        </div>
+    </section>
+
+    <div class="heading-1"><i class="fa-solid fa-calendar-alt calendar"></i>PAST EVENTS </div>
+
+    <section id="events_c" class="upcom-events">
+
+        <div class="contain">
+            <div id="pastEventsContainer"  class="events-container" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 100px;  margin:50px 0px;"></div>
+        </div>
+    </section>
+    <!-- ========================================================
+
+    
+    Footer Section
+
+
+
+
+ ================================================================-->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3 class="quick-links">Quick Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./events.html">EVENTS</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./xenium.html">XENIUM</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="./assets/images/logo_final.png" class="logo">
+            </div>
+
+
+            <div class="col">
+                <h3 class="contact">Contact Us At <div class="underline3"><span></span></div>
+                </h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ParikalanSociety/" target="_blank" class="footer-links">
+
+
+                        <i class="fab fa-facebook-square"></i>
+                        <p>FACEBOOK</p>
+
+                    </a>
+                    <a href="https://twitter.com/xeniumtechfest" target="_blank" class="footer-links">
+
+                        <i class="fab fa-twitter-square"></i>
+                        <p>TWITTER</p>
+      
+                    </a>
+                    <a href="https://in.linkedin.com/school/parikalanpgdav/" target="_blank" class="footer-links">
+
+                        <i class="fab fa-linkedin"></i>
+                        <p>LINKEDIN</p>
+
+                    </a>
+                    <a href="https://instagram.com/parikalan._.pgdav?igshid=NTdlMDg3MTY=" target="_blank"
+                        class="footer-links">
+
+                        <i class="fab fa-instagram"></i>
+                        <p>INSTAGRAM</p>
+
+                    </a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <hr>
+        <!-- <p class="copyright">Copyright ©</p> -->
+    </footer>
+
+
+</section>
+
+
+       <!-- //? Contact Us Form Section -->
+
+    <div class="message-icon">
+    <a href="#" id="contact-form-loader" class="nav-link">
+    <img src="./assets/images/message.png" alt="" width="60px"> </a>
+        
+    </div>
+
+
+    <div id="contact-form-render" class="contact-form-norender contact-form-always contact-form-render">
+        <form method="post" class="form-container" id="form-container-render" action="https://eventspgdav.onrender.com/submit-form">
+
+            <div class="main-contact-form">
+                <div class="contact-head-desc">
+                    <div class=" contact-head">
+                        Contact-Us <div class="contact-form-underline "><span></span></div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <div class="form">
+                        <p>NAME :</p>
+                        <input type="text" id="name" placeholder="ENTER YOUR NAME" name="name" required>
+                    </div>
+
+                    <div class="form">
+                        <p>PHONE :</p>
+                        <input type="tel" id="phone" placeholder="XXXXXXXXXX" name="phone" required>
+                    </div>
+
+                    <div class="form">
+                        <p>EMAIL ID :</p>
+                        <input type="email" id="email" placeholder="demo@gmail.com" name ="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </div>
+
+                    <div class="form" id="form-textarea">
+                        <p>MESSAGE :</p>
+                        <textarea id="message" placeholder="How can we help you?" name="message" required></textarea>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <button type="submit" class="submit-btn" id="submit-id">Submit</button>
+                <button type="reset" class="close-btn" id ="close-btn">Close</button>
+            </center>
+        </form>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="http://kit.fontawesome.com/c4254e24a8.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="./assets/js/events-app.js"></script>
+    <script src="https://kit.fontawesome.com/a0519ef118.js" crossorigin="anonymous"></script>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!--script-->
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <!-- javascript for countdown in Event card -->
+    <script src="./assets/js/events-timer.js"></script>
+
+    <!-- java script for nav-bar hamburger  -->
+
+    <script src="./assets/js/index.js"></script>
+    <!-- javascript for modal in Event cards -->
+
+    <!-- <script src="./assets/js/events-app.js"></script> -->
+    <script src="./assets/js/modal.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+iframe{
+     width: 100%;
+     height: 280vh;
+     border: none;
+     overflow: hidden;
+     margin-top: 100px;
+     transition: all 0.5s ease-in-out;
+     scroll-behavior: smooth;
+}
+
+/* Reset some default styles */
+body, h1, p {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Arial', sans-serif;
+     background-color: #f4f4f4;
+ }
+ 
+ .EventDescription {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 40px;
+     background-color: rgb(255, 250, 238) ;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ #eventName {
+     color: #333;
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
+ 
+ #eventDescription {
+     color: #666;
+     line-height: 1.6;
+ }
+ 
+ /* Add more styles as needed */
+ 

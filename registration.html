@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration</title>
+     <link rel="icon" href="./assets/images/parikalan.jpeg" type="image/icon type">
+     <link rel="stylesheet" href="./assets/css/registration.css">
+     <link rel="stylesheet" href="./assets/css/common.css">
+     <link rel="stylesheet" href="./assets/css/contact.css">
+
+</head>
+<body>
+
+     <!-- //* Navbar -->
+
+     <section class="nav-elements ">
+          <h2 class="Parikalan-logo">PARIKALAN</h2>
+          <nav class="nav-bar">
+              <ul class="nav-unod-list">
+  
+  
+                      <li class="nav-list"><a href="./about.html" class="nav-link" > About<div class="underline2"><span></span></a></li>
+                      <!-- <li class="nav-list"><a href="./about.html" class="nav-link"> About US </a></li> -->
+                      <li class="nav-list"><a href="./events.html" class="nav-link "> Events </a></li>
+                      <!-- <li class="nav-list"><a href="./members.html" class="nav-link"> MEMBERS </a></li> -->
+                      <li class="nav-list"><a href="./xenium.html" class="nav-link "> xenium </a></li>
+              </ul>
+          </nav>
+  
+          <div class="hamburger">
+              <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+              <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+          </div>
+      </section>
+  
+  
+  
+     <!-- //* Registration And Description Section  -->
+     <section id="website-hero">
+        <div class="alert">
+
+        
+            <div>
+                <p>Page Under Maintainence </p>
+            </div>
+    
+            <section class="lottie-maitainence"> 
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    
+                <dotlottie-player src="https://lottie.host/dbbc4778-94c7-4dfd-9bad-9e0f3bfbcebb/eNmFrUtlfX.json" background="transparent" speed="1" style="width: 600px; height: 600px;" loop autoplay></dotlottie-player>
+            </section>
+    
+    
+          </div>
+
+     <div class="EventDescription">
+          <h1 id="eventName"></h1>
+          <p id="eventDescription"></p>
+     </div>
+
+     <iframe id="registrationIframe"></iframe>
+
+
+
+     <!-- //* Footer -->
+
+
+     <footer>
+          <div class="row">
+              <div class="col">
+                  <h3 class="quick-links">Quick Links <div class="underline"><span></span></div>
+                  </h3>
+                  <ul>
+                      <li><a href="./index.html">HOME</a></li>
+                      <li><a href="./events.html">EVENTS</a></li>
+                      <li><a href="./about.html">ABOUT</a></li>
+                      <li><a href="./xenium.html">XENIUM</a></li>
+                  </ul>
+              </div>
+              <div class="col">
+                  <img src="./assets/images/logo_final.png" class="logo">
+              </div>
+  
+  
+              <div class="col">
+                  <h3 class="contact">Contact Us At <div class="underline3"><span></span></div>
+                  </h3>
+                  <div class="social-icons">
+                      <a href="https://www.facebook.com/ParikalanSociety/" target="_blank" class="footer-links">
+  
+  
+                          <i class="fab fa-facebook-square"></i>
+                          <p>FACEBOOK</p>
+  
+                      </a>
+                      <a href="https://twitter.com/xeniumtechfest" target="_blank" class="footer-links">
+  
+                          <i class="fab fa-twitter-square"></i>
+                          <p>TWITTER</p>
+        
+                      </a>
+                      <a href="https://in.linkedin.com/school/parikalanpgdav/" target="_blank" class="footer-links">
+  
+                          <i class="fab fa-linkedin"></i>
+                          <p>LINKEDIN</p>
+  
+                      </a>
+                      <a href="https://instagram.com/parikalan._.pgdav?igshid=NTdlMDg3MTY=" target="_blank"
+                          class="footer-links">
+  
+                          <i class="fab fa-instagram"></i>
+                          <p>INSTAGRAM</p>
+  
+                      </a>
+                  </div>
+              </div>
+  
+  
+  
+  
+          </div>
+          <hr>
+          <!-- <p class="copyright">Copyright ©</p> -->
+      </footer>
+
+</section>
+
+      <!-- //? Contact Us Form Section -->
+
+      <div class="message-icon">
+        <a href="#" id="contact-form-loader" class="nav-link">
+        <img src="./assets/images/message.png" alt="" width="60px"> </a>
+            
+        </div>
+    
+    
+        <div id="contact-form-render" class="contact-form-norender contact-form-always contact-form-render">
+            <form method="post" class="form-container" id="form-container-render" action="https://eventspgdav.onrender.com/submit-form">
+    
+                <div class="main-contact-form">
+                    <div class="contact-head-desc">
+                        <div class=" contact-head">
+                            Contact-Us <div class="contact-form-underline "><span></span></div>
+                        </div>
+                    </div>
+    
+                    <div class="contact-form">
+                        <div class="form">
+                            <p>NAME :</p>
+                            <input type="text" id="name" placeholder="ENTER YOUR NAME" name="name" required>
+                        </div>
+    
+                        <div class="form">
+                            <p>PHONE :</p>
+                            <input type="tel" id="phone" placeholder="XXXXXXXXXX" name="phone" required>
+                        </div>
+    
+                        <div class="form">
+                            <p>EMAIL ID :</p>
+                            <input type="email" id="email" placeholder="demo@gmail.com" name ="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        </div>
+    
+                        <div class="form" id="form-textarea">
+                            <p>MESSAGE :</p>
+                            <textarea id="message" placeholder="How can we help you?" name="message" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <button type="submit" class="submit-btn" id="submit-id">Submit</button>
+                    <button type="reset" class="close-btn" id ="close-btn">Close</button>
+                </center>
+            </form>
+        </div>
+
+     <script>
+          // Get the current URL
+          const currentUrl = new URL(window.location.href);
+
+          // Get the query string (including the '?')
+          const queryString = currentUrl.search;
+
+          // Remove the '?' at the start to get the id
+          const id = queryString.substring(1);
+
+          //* Calling the api to fetch the data 
+          let api = "https://eventspgdav.onrender.com/events/" + id;
+          let maindata = null;
+
+          fetch(api)
+               .then(response => response.json())
+               .then(data => {
+                    globalThis.maindata = data;
+                    // console.log(data);
+                    let iframe = document.getElementById("registrationIframe");
+                    document.getElementById("eventName").innerHTML = data.name;
+                    document.getElementById("eventDescription").innerHTML =data.eventDescription;
+                    iframe.src = data.RegistrationLink;
+               })
+               .catch(err => console.log(err));
+               
+
+
+     </script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="http://kit.fontawesome.com/c4254e24a8.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <!-- <script src="./assets/js/events-app.js"></script> -->
+    <script src="https://kit.fontawesome.com/a0519ef118.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--script-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./assets/js/index.js"></script>
+
+
+
+</body>
+</html>
